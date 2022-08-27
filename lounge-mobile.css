@@ -1,0 +1,52 @@
+body {
+  font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
+  background-color: black;
+}
+
+#name {
+  color: gray;
+}
+
+h1 {
+  font-size: 150%;
+  color: white;
+}
+
+h2 {
+  font-size: 130%;
+  color: white;
+}
+#photo {
+  border: thin solid #007e7e;
+  width: 200px;
+  padding: 10px 10px 10px 10px;
+  margin-left: 10px;
+  text-align: center;
+  background-image: url("images/cocktail.gif");
+  background-repeat: repeat-x;
+  line-height: 1;
+  float: right;
+}
+p, footer{
+	color: black;
+}
+#footer {
+  background-color: gray;
+  color:            #white;
+  text-align:       center;
+  padding:          10px;
+  margin:           10px;
+  font-size:        90%;
+  float: down;
+}
+#persone {
+	color: white;
+}
+
+#info {
+    display: table-cell;
+    background-color: white;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+}
